@@ -7,5 +7,5 @@ class Person
     attributes.each do |"#{method}=", value|
       send.value
     end
-
+  end
 end
